@@ -1,6 +1,11 @@
 #!/bin/bash
 
-cp -R distr ~ -v
+cp -vR ./distr/bin ~/
+cp -v ./distr/.bashrc ~/.bashrc
+cp -v ./distr/.gitconfig ~/.gitconfig
+cp -v ./distr/.gitignore ~/.gitignore
+cp -v ./distr/.profile ~/.profile
+cp -v ./distr/.selected_editor ~/.selected_editor
 
 # Composer
 curl -skS https://getcomposer.org/installer | php
