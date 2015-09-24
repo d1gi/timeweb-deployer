@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cp -vR ./distr/bin ~/
+cp -v ./distr/.config ~/.config
 cp -v ./distr/.bashrc ~/.bashrc
 cp -v ./distr/.gitconfig ~/.gitconfig
 cp -v ./distr/.gitignore ~/.gitignore
